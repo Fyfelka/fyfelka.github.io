@@ -20,8 +20,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 github_username: fyfelka
-minimal_mistakes_skin: dark
-search: true
+minimal_mistakes_skin: "dark"
+search: false
 
 # Build settings
 markdown: kramdown
@@ -60,6 +60,7 @@ author:
   name   : "Fyfelka"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Generic IT specialist/sysadmin trying to become CyberSec professional"
+  location : "Somewhere frozen"
   #links:
   #  - label: "Website"
   #    icon: "fas fa-fw fa-link"
